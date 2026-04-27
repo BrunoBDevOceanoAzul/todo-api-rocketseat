@@ -1,0 +1,14 @@
+{
+  "name": "node-tasks-api",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de tarefas - Desafio Rocketseat",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "import": "node scripts/import-csv.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.5"
+  }
+}
